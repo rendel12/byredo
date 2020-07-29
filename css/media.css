@@ -7,7 +7,17 @@
 
 
 
-.m_menu,.m_con01_tit,.m_con03_tit01,.m_con03_tit02,.m_footer,.mb_pdt_info,.mb_s_con_price{display:none;}/*미디어영역밖에 쓰면 일반 css처럼적용*/
+/*미디어영역밖에 쓰면 일반 css처럼적용*/
+.m_menu,
+.m_con03_tit01,
+.m_con03_tit02,
+.m_footer,
+.mb_pdt_info,
+.mb_s_con_price,
+.m_con01_tit{
+    display:none;
+}
+/*미디어영역밖에 쓰면 일반 css처럼적용*/
 
 @media screen and (max-width:768px){
         
@@ -16,11 +26,30 @@
     .inner{width:auto;}
     
     /*웹뷰에서 쓰던 것 안보임 처리(모바일에서 필요없는 부분 none처리, 모바일 안보임 처리)*/
-    .gnb,.lnb,.sitemap,.main_con01 p,.main_con02,.main_con03 div .con03_tit01,.main_con03 div .con03_tit02,.main_con03 div a,.s_con01_right,.s_con02_info{display:none;}
+    .gnb,.lnb,
+    .sitemap,
+    .main_con01 p,
+    .main_con02,
+    .main_con03 div .con03_tit01,
+    .main_con03 div .con03_tit02,
+    .main_con03 div a,
+    .s_con01_right,
+    .s_con02_info{
+        display:none;
+    }
+    
     
     
     /*모바일 뷰 처리(모바일에서는 보이는 부분)*/
-    .m_menu,.m_con01_tit,.m_con03_tit01,.m_con03_tit02,.m_footer,.mb_pdt_info,.mb_s_con_price{display:block;}
+    .m_menu,
+    .m_con01_tit,
+    .m_con03_tit01,
+    .m_con03_tit02,
+    .m_footer,
+    .mb_pdt_info,
+    .mb_s_con_price{
+        display:block;
+    }
     
     
     
@@ -444,50 +473,3 @@
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
