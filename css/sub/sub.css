@@ -16,6 +16,7 @@
     overflow:hidden;
     margin-bottom:100px;
     text-indent:-9999px;
+    z-index:9999;
 }
 
 /*s_main_con01*/
